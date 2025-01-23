@@ -1,9 +1,66 @@
 layout: {qmk_keyboard: sofle/rev1}
 layers:
-  BAS: [Esc, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '`', ↹, Q, W, E, R, T, Y, U, I, O, P, '-', '$$mdi:apple-keyboard-control$$', A, S, D, F, G, H, J, K,
-    L, ;, '''', '$$mdi:apple-keyboard-shift$$', Z, X, C, V, B, MUTE, MUTE, N, M, ',', ., /, '$$mdi:apple-keyboard-shift$$', LOW, '$$mdi:apple-keyboard-command$$',
-    '$$mdi:apple-keyboard-command$$', '$$mdi:apple-keyboard-option$$', ␣, ⏎, '$$mdi:backspace-outline$$', '$$mdi:apple-keyboard-command$$', '$$mdi:apple-keyboard-command$$',
-    RAI]
+  BAS:
+  - Esc
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - '`'
+  - ↹
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - '-'
+  - $$mdi:apple-keyboard-control$$
+  - {t: A, h: LSFT}
+  - {t: S, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: D, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: F, h: LCTL}
+  - G
+  - H
+  - J
+  - K
+  - L
+  - ;
+  - ''''
+  - $$mdi:apple-keyboard-shift$$
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - MUTE
+  - MUTE
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - $$mdi:apple-keyboard-shift$$
+  - LOW
+  - $$mdi:apple-keyboard-command$$
+  - $$mdi:apple-keyboard-command$$
+  - $$mdi:apple-keyboard-option$$
+  - ␣
+  - ⏎
+  - $$mdi:backspace-outline$$
+  - $$mdi:apple-keyboard-command$$
+  - $$mdi:apple-keyboard-command$$
+  - RAI
   LOW:
   - '&zed_em_kay'
   - F1
