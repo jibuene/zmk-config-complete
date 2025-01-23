@@ -28,7 +28,7 @@ layers:
   - '8'
   - '9'
   - '0'
-  - F12
+  - '&macro_no_a'
   - {t: ▽, type: trans}
   - '!'
   - '@'
@@ -39,8 +39,8 @@ layers:
   - AMPS
   - KP MULTIPLY
   - (
-  - )
-  - '|'
+  - '&macro_no_o'
+  - '&macro_no_ae'
   - {t: ▽, type: trans}
   - '='
   - '-'
