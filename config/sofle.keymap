@@ -20,23 +20,21 @@
                 , <&macro_release &kp LSHFT>
                 ;
         };
-        /*
         macro_no_o: macro_no_o {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
                 = <&macro_press &kp RCTRL>
-                , <&macro_tap &kp FSLH &kp o>
+                , <&macro_tap &kp FSLH &kp O>
                 , <&macro_release &kp RCTRL>
                 ;
         };
-        */
         macro_no_a: macro_no_a {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
                 = <&macro_press &kp RCTRL>
-                , <&macro_tap &kp o &kp a>
+                , <&macro_tap &kp O &kp A>
                 , <&macro_release &kp RCTRL>
                 ;
         };
@@ -45,7 +43,7 @@
             #binding-cells = <0>;
             bindings
                 = <&macro_press &kp RCTRL>
-                , <&macro_tap &kp a &kp e>
+                , <&macro_tap &kp A &kp E>
                 , <&macro_release &kp RCTRL>
                 ;
         };
@@ -85,7 +83,7 @@
             bindings = <
 &zed_em_kay  &kp F1     &kp F2     &kp F3       &kp F4    &kp F5                       &kp F6     &kp F7    &kp F8           &kp F9     &kp F10   &kp F11
 &mo 2      &kp N1     &kp N2     &kp N3       &kp N4    &kp N5                       &kp N6     &kp N7    &kp N8           &kp N9     &kp N0    &macro_no_a
-&trans     &kp EXCL   &kp AT     &kp HASH     &kp DLLR  &kp PRCNT                    &kp CARET  &kp AMPS  &kp KP_MULTIPLY  &kp LPAR   &kp N0  &macro_no_ae
+&trans     &kp EXCL   &kp AT     &kp HASH     &kp DLLR  &kp PRCNT                    &kp CARET  &kp AMPS  &kp KP_MULTIPLY  &kp LPAR   &macro_no_o  &macro_no_ae
 &trans     &kp EQUAL  &kp MINUS  &kp KP_PLUS  &kp LBRC  &kp RBRC   &trans    &trans  &kp LBKT   &kp RBKT  &kp SEMI         &kp COLON  &kp BSLH  &trans
                       &trans     &trans       &trans    &trans     &trans    &trans  &trans     &trans    &trans           &trans
             >;
