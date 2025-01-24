@@ -26,10 +26,10 @@ layers:
   - P
   - '-'
   - $$mdi:apple-keyboard-control$$
-  - {t: A, h: LSFT}
+  - {t: A, h: '$$mdi:apple-keyboard-control$$'}
   - {t: S, h: '$$mdi:apple-keyboard-command$$'}
   - {t: D, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: F, h: LCTL}
+  - {t: F, h: LSHIFT}
   - G
   - H
   - J
